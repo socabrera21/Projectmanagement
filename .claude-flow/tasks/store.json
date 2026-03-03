@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "task-1770103602188-8y0xfp": {
+      "taskId": "task-1770103602188-8y0xfp",
+      "type": "implementation",
+      "description": "Design and implement a user authentication system with JWT tokens, password hashing, and rate limiting",
+      "priority": "high",
+      "status": "pending",
+      "progress": 0,
+      "assignedTo": [],
+      "tags": [],
+      "createdAt": "2026-02-03T07:26:42.188Z",
+      "startedAt": null,
+      "completedAt": null
+    }
+  },
+  "version": "3.0.0"
+}

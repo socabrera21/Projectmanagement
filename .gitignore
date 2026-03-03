@@ -1,0 +1,47 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# API keys and credentials
+*.key
+*.pem
+credentials.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Embedded git repos (managed separately)
+Skill_Seekers/
+SuperClaude_Framework/
+awesome-claude-skills/
+claude-flow/
+everything-claude-code/

@@ -1,0 +1,46 @@
+{
+  "name": "resume-job-search-agent",
+  "version": "1.0.0",
+  "description": "AI-powered resume scoring and job search agent with multi-board integration",
+  "main": "src/agents/resume-scorer.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:apis": "ts-node scripts/test-apis.ts",
+    "search": "ts-node scripts/search-jobs.ts",
+    "example:resume": "ts-node examples/resume-scorer-example.ts",
+    "example:jobs": "ts-node examples/job-board-scraper-example.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.ts\"",
+    "help": "echo 'Available commands:\n  npm run test:apis      - Test API configuration\n  npm run search         - Search jobs (use -- --help for options)\n  npm run example:resume - Run resume scoring examples\n  npm run example:jobs   - Run job search examples\n  npm test              - Run unit tests\n  npm run build         - Compile TypeScript'"
+  },
+  "keywords": [
+    "resume",
+    "job-search",
+    "ats",
+    "job-board",
+    "api",
+    "career",
+    "recruitment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "zod": "^3.22.0"
+  }
+}

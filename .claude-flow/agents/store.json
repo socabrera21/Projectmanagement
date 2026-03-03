@@ -1,0 +1,73 @@
+{
+  "agents": {
+    "agent-1770103021765-6mizlr": {
+      "agentId": "agent-1770103021765-6mizlr",
+      "agentType": "coder",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "provider": "anthropic"
+      },
+      "createdAt": "2026-02-03T07:17:01.766Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default"
+    },
+    "agent-1770103566390-adipjw": {
+      "agentId": "agent-1770103566390-adipjw",
+      "agentType": "coder",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "provider": "anthropic",
+        "model": "claude-3.5-sonnet-20241022"
+      },
+      "createdAt": "2026-02-03T07:26:06.390Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default"
+    },
+    "agent-1770103569662-ifinhd": {
+      "agentId": "agent-1770103569662-ifinhd",
+      "agentType": "architect",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "provider": "anthropic"
+      },
+      "createdAt": "2026-02-03T07:26:09.662Z",
+      "model": "opus",
+      "modelRoutedBy": "default"
+    },
+    "agent-1770103576766-6kolbq": {
+      "agentId": "agent-1770103576766-6kolbq",
+      "agentType": "reviewer",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "provider": "openai",
+        "model": "gpt-4o"
+      },
+      "createdAt": "2026-02-03T07:26:16.767Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default"
+    },
+    "agent-1770103580908-1hxxex": {
+      "agentId": "agent-1770103580908-1hxxex",
+      "agentType": "tester",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "provider": "openai",
+        "model": "gpt-4-turbo"
+      },
+      "createdAt": "2026-02-03T07:26:20.908Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default"
+    }
+  },
+  "version": "3.0.0"
+}

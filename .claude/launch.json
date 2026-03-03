@@ -1,0 +1,47 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "browser-dashboard",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 8080,
+      "cwd": "claude-flow/v2/examples/browser-dashboard"
+    },
+    {
+      "name": "rest-api-advanced",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 3000,
+      "cwd": "claude-flow/v2/examples/05-swarm-apps/rest-api-advanced"
+    },
+    {
+      "name": "rest-api-simple",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["src/server.js"],
+      "port": 3001,
+      "cwd": "claude-flow/v2/examples/05-swarm-apps/rest-api"
+    },
+    {
+      "name": "skill-seekers-api",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["api/main.py"],
+      "port": 8000,
+      "cwd": "Skill_Seekers"
+    },
+    {
+      "name": "claude-flow-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "watch", "src/index.ts"],
+      "port": 3100,
+      "cwd": "claude-flow"
+    },
+    {
+      "name": "vitest-ui",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vitest", "--ui"],
+      "port": 51204,
+      "cwd": "claude-flow"
+    }
+  ]
+}
