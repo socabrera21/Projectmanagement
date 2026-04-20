@@ -11,6 +11,14 @@
 - ALWAYS read a file before editing it
 - NEVER commit secrets, credentials, or .env files
 
+## Skill Library
+
+- All Claude skills are stored in `/Skill Library/` — this is the single source of truth for all skills
+- ALWAYS save newly created skills to `/Skill Library/<skill-name>/` with a `SKILL.md` file at minimum
+- ALWAYS update `/Skill Library/SKILLS_INDEX.md` when adding a new skill (add a row to the "Your Custom Skills" table)
+- When creating a skill with supporting scripts or references, save them inside `/Skill Library/<skill-name>/scripts/` or `/Skill Library/<skill-name>/references/`
+- NEVER save skills to the root folder or any other location
+
 ## File Organization
 
 - NEVER save to root folder — use the directories below

@@ -1,0 +1,25 @@
+# Job Match Agent — Search Configuration
+# Edit these values to customize your job search
+
+search_terms:
+  - "Account Executive"
+  - "Enterprise Account Executive"
+  - "Mid-Market Account Executive"
+  - "SaaS Account Executive"
+
+location: "USA"
+is_remote: true
+hours_old: 72          # Only show jobs posted within this many hours
+results_wanted: 50     # Per search term, per board
+
+# Job boards to search (comment out any you don't want)
+sites:
+  - indeed
+  - linkedin
+  - glassdoor
+  - zip_recruiter
+  - google
+
+# Scoring thresholds
+min_score: 0           # Set to 60+ to filter weak matches
+top_results: 20        # Number of top results to display

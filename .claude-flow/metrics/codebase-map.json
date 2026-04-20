@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-24T15:58:37.359Z",
+  "timestamp": "2026-03-18T01:22:19.087Z",
   "projectRoot": "/Users/Apple/Projectmanagement",
   "structure": {
     "hasPackageJson": true,
@@ -7,5 +7,5 @@
     "hasClaudeConfig": true,
     "hasClaudeFlow": true
   },
-  "scannedAt": 1771948717359
+  "scannedAt": 1773796939087
 }

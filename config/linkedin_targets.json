@@ -1,0 +1,81 @@
+{
+  "persona_urn": "urn:li:person:YOUR_NUMERIC_ID",
+  "daily_limits": {
+    "comments": 8,
+    "likes": 40,
+    "connection_requests": 15,
+    "dms": 3
+  },
+  "hashtags": [
+    "#SalesHiring",
+    "#AEJobs",
+    "#EnterpriseSales",
+    "#GTM",
+    "#B2BSales",
+    "#SaaSSales",
+    "#TechSales",
+    "#RevenueLeaders"
+  ],
+  "persona_searches": [
+    {
+      "bucket": "Tech Recruiter (SaaS)",
+      "search_url": "https://www.linkedin.com/search/results/people/?keywords=recruiter%20saas%20enterprise&origin=GLOBAL_SEARCH_HEADER&sid=abc",
+      "keywords": "recruiter saas enterprise software",
+      "connect_per_day": 4,
+      "connection_note_template": "Hey {first_name} — I'm an enterprise AE with 8+ years in SaaS (Jamf, Aisera, Agiloft), 110–180% attainment. Actively exploring new roles. Would love to be on your radar."
+    },
+    {
+      "bucket": "VP / Dir of Sales",
+      "search_url": "https://www.linkedin.com/search/results/people/?keywords=VP+Sales+SaaS+enterprise&origin=GLOBAL_SEARCH_HEADER",
+      "keywords": "VP Sales Director Sales SaaS enterprise",
+      "connect_per_day": 3,
+      "connection_note_template": "Hey {first_name} — fellow enterprise seller here. I'm exploring my next AE role and love connecting with sales leaders building teams. Happy to share notes anytime."
+    },
+    {
+      "bucket": "GTM Leader",
+      "search_url": "https://www.linkedin.com/search/results/people/?keywords=go-to-market+enterprise+GTM&origin=GLOBAL_SEARCH_HEADER",
+      "keywords": "go-to-market GTM enterprise revenue",
+      "connect_per_day": 3,
+      "connection_note_template": "Hey {first_name} — I'm an enterprise AE focused on GTM motion and greenfield territory. Always good to connect with people thinking about growth strategy."
+    },
+    {
+      "bucket": "Talent Acquisition (Tech)",
+      "search_url": "https://www.linkedin.com/search/results/people/?keywords=talent+acquisition+technology+SaaS&origin=GLOBAL_SEARCH_HEADER",
+      "keywords": "talent acquisition technology SaaS",
+      "connect_per_day": 4,
+      "connection_note_template": "Hey {first_name} — I'm an enterprise AE (8+ yrs, $1M+ ARR, 110–180% attainment) actively exploring my next role. Would love to be on your radar for enterprise sales openings."
+    },
+    {
+      "bucket": "Revenue / Sales Ops",
+      "search_url": "https://www.linkedin.com/search/results/people/?keywords=RevOps+Sales+Operations+SaaS&origin=GLOBAL_SEARCH_HEADER",
+      "keywords": "RevOps Sales Operations SaaS",
+      "connect_per_day": 2,
+      "connection_note_template": "Hey {first_name} — I'm an enterprise AE who loves the ops side of selling (pipeline math, cycle compression, coverage ratios). Great network to build. Would love to connect."
+    }
+  ],
+  "tier1_profiles": [
+    {"name": "Dan Dropkin-Frank", "company": "BuildOps", "role": "Dir. Sales", "linkedin_id": ""},
+    {"name": "Harry Grobbelaar", "company": "Intigriti", "role": "CRO", "linkedin_id": ""},
+    {"name": "Ryan Garner", "company": "Bishop Fox", "role": "Regional Sales Director", "linkedin_id": ""},
+    {"name": "Carlos Cheung", "company": "Fossa", "role": "AE", "linkedin_id": ""},
+    {"name": "Jason Trinidad", "company": "Fossa", "role": "AE", "linkedin_id": ""}
+  ],
+  "tier3_thought_leaders": [
+    {"name": "Belal Batrawy", "linkedin_id": "belal-batrawy"},
+    {"name": "Morgan J Ingram", "linkedin_id": "morganjingram"},
+    {"name": "Kyle Coleman", "linkedin_id": "kylecoleman"}
+  ],
+  "run_window": {
+    "start_hour": 8,
+    "end_hour": 18,
+    "timezone": "America/Chicago"
+  },
+  "anti_spam": {
+    "min_delay_between_actions_sec": 45,
+    "max_delay_between_actions_sec": 180
+  },
+  "browser_profile_dir": "/Users/Apple/.linkedin-daily-profile",
+  "state_file": "/Users/Apple/Projectmanagement/config/linkedin_state.json",
+  "activity_log": "/Users/Apple/Library/Mobile Documents/iCloud~md~obsidian/Documents/Interview/saul/linkedin-activity-log.md",
+  "log_dir": "/Users/Apple/Projectmanagement/logs/linkedin"
+}

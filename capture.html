@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Screenshot Capture</title></head>
+<body style="font-family:monospace;padding:20px;background:#111;color:#0f0">
+<h3>Screenshot Capture Tool</h3>
+<input type="file" id="f" accept="image/*" style="display:block;margin:10px 0">
+<div id="status">Waiting for image...</div>
+<textarea id="out" style="width:100%;height:200px;font-size:10px;background:#000;color:#0f0;display:none"></textarea>
+<script>
+document.getElementById('f').addEventListener('change', function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(ev) {
+    const b64 = ev.target.result; // data:image/jpeg;base64,...
+    document.getElementById('out').value = b64;
+    document.getElementById('out').style.display = 'block';
+    document.getElementById('status').textContent = 'READY: ' + file.name + ' (' + file.size + ' bytes)';
+    window._capturedB64 = b64;
+    window._captureReady = true;
+  };
+  reader.readAsDataURL(file);
+});
+window._captureReady = false;
+</script>
+</body>
+</html>
